@@ -1,0 +1,79 @@
+/*
+ * Typography
+ */
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.gray {
+  font-style: italic;
+  color: #777;
+}
+
+/*
+ * Buttons
+ */
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 20px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Montserrat;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background: #5D67B1;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #8694ff;
+}
+
+.btn-secondary {
+  background: #2B3264;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #5D67B1;
+}
+
+.btn-cancel {
+  background: #9da1be;
+  color: #212540;
+}
+
+.btn-cancel:hover {
+  background: #d1d7fd;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/*
+ * Font
+ */
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+  font-family:Montserrat;
+}

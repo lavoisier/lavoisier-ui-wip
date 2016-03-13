@@ -1,0 +1,51 @@
+body {
+  background-color: #eee;
+}
+
+.block {
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border-top: 5px solid #5D67B1;
+  margin: 40px auto 0;
+}
+
+.block h1 {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.block p {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.block small {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.block-disabled {
+  border-top: 5px solid #777;
+}
+
+.reaction-button {
+  width: 150px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.button-error {
+  background: rgb(202, 60, 60);
+  color: white;
+}
+
+.button-primary {
+  background: rgb(66, 184, 221);
+  color: white;
+}

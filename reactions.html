@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="vendor/pure-release-0.6.0/pure-min.css">
+  <link rel="stylesheet" href="vendor/pure-release-0.6.0/grids-responsive-min.css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/side-menu.css" rel="stylesheet" type="text/css">
+  <link href="css/app.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <title>Lavoisier.IO</title>
+</head>
+
+<body>
+  <div id="layout">
+    <a id="menuLink" class="menu-link" href="#menu"><span></span></a>
+    <div id="menu">
+      <div class="pure-menu">
+        <a class="pure-menu-heading" href="#">Lavoisier.IO</a>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a class="pure-menu-link active" href="#">Reactions</a>
+          </li>
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="#">Channels</a>
+          </li>
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="#">Settings</a>
+          </li>
+        </ul>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="#">Channels admin</a>
+          </li>
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="#">Users admin</a>
+          </li>
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="#">Settings</a>
+          </li>
+        </ul>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="login.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="pure-g">
+        <div class="pure-u-2-24 pure-u-sm-3-24 pure-u-md-4-24 pure-u-lg-5-24 pure-u-xl-6-24"></div>
+        <div class="pure-u-20-24 pure-u-sm-18-24 pure-u-md-16-24 pure-u-lg-14-24 pure-u-xl-12-24">
+          <h1 class="right">Reactions</h1>
+          <p>
+          <div class="block">
+            <div class="pure-g">
+              <div class="pure-u-15-24">
+                <h4>Post new tweets to facebook <small class="gray">Twitter &#8594; Facebook</small></h4>
+                <p>
+                  <span class="gray">When</span> Someone posts a tweet<br>
+                  <span class="gray">Then&nbsp;&nbsp;</span> Post a Facebook status
+                </p>
+                <h6 class="gray">Last reaction: 10min ago - Executed 278 times</h6>
+              </div>
+              <div class="pure-u-9-24 right">
+                <button class="pure-button pure-button-active reaction-button">
+                  <i class="fa fa-stop-circle"></i>&nbsp;
+                  Disable
+                </button><br>
+                <button class="pure-button button-error reaction-button">
+                  <i class="fa fa-trash"></i>&nbsp;
+                  Delete
+                </button><br>
+                <button class="pure-button button-primary reaction-button">
+                  <i class="fa fa-list"></i>&nbsp;
+                  Logs
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="pure-g">
+              <div class="pure-u-15-24">
+                <h4>Post new Facebook status to Twitter <small class="gray">Facebook &#8594; Twitter</small></h4>
+                <p>
+                  <span class="gray">When</span> I post a Facebook status<br>
+                  <span class="gray">Then&nbsp;&nbsp;</span> Post a new Tweet
+                </p>
+                <h6 class="gray">Last reaction: 12hours ago - Executed 28 times</h6>
+              </div>
+              <div class="pure-u-9-24 right">
+                <button class="pure-button pure-button-active reaction-button">
+                  <i class="fa fa-stop-circle"></i>&nbsp;
+                  Disable
+                </button><br>
+                <button class="pure-button button-error reaction-button">
+                  <i class="fa fa-trash"></i>&nbsp;
+                  Delete
+                </button><br>
+                <button class="pure-button button-primary reaction-button">
+                  <i class="fa fa-list"></i>&nbsp;
+                  Logs
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="block block-disabled gray">
+            <div class="pure-g">
+              <div class="pure-u-15-24">
+                <h4>Post new Instagram pictures to Twitter <small class="gray">Instagram &#8594; Twitter</small></h4>
+                <p>
+                  <span class="gray">When</span> I post a picture on Instagram<br>
+                  <span class="gray">Then&nbsp;&nbsp;</span> Post a new Tweet
+                </p>
+                <h6 class="gray">Last reaction: never - never executed</h6>
+              </div>
+              <div class="pure-u-9-24 right">
+                <button class="pure-button reaction-button">
+                  <i class="fa fa-play-circle"></i>&nbsp;
+                  Enable
+                </button><br>
+                <button class="pure-button button-error reaction-button">
+                  <i class="fa fa-trash"></i>&nbsp;
+                  Delete
+                </button><br>
+                <button class="pure-button button-primary reaction-button">
+                  <i class="fa fa-list"></i>&nbsp;
+                  Logs
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pure-u-2-24 pure-u-sm-3-24 pure-u-md-4-24 pure-u-lg-5-24 pure-u-xl-5-24"></div>
+      </div>
+    </div>
+  </div>
+  <script src="vendor/jquery-2.2.1/jquery-2.2.1.min.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+
+</html>
